@@ -1,0 +1,435 @@
+html,body,table {margin: 0; padding: 0;}
+p {margin: 10px 0 10px 0; padding: 0; width:478px;}
+body {margin: 0; padding: 0px; background: white;}
+body,p {font: 11px/14px arial, 'lucida grande', sans-serif; color: #000;}
+img {border: 0;}
+hr {border: none 0; border-top: 1px solid #ccc; height: 1px;}
+
+/* Fonts */
+
+h1 {font: bold 18px arial, 'lucida grande', sans-serif; color: #900; margin: 0;}
+h2 {font: bold 17px arial, 'lucida grande', sans-serif; color: #369; margin: 0;}
+h2 a:visited {font: bold 17px arial, 'lucida grande', sans-serif; color: #369; margin: 0;}
+h2 a:link {font: bold 17px arial, 'lucida grande', sans-serif; color: #369; margin: 0;}
+h2 a:active {font: bold 17px arial, 'lucida grande', sans-serif; color: #369; margin: 0;}
+#mid_hdr {font: normal 24px arial, 'lucida grande', sans-serif; letter-spacing: -1px;}
+#lg_hdr {font-size: 24px; letter-spacing: -1px;}
+#lg_hdr a {font: bold 24px arial; letter-spacing: -1px; }
+#lg_hdr_blk {font-size: 24px; color: #000; letter-spacing: -1px;}
+#lg_hdr_blk a {font-size: 24px; color: #000; letter-spacing: -1px;}
+.red_hdr {color: #900;}
+.red_hdr_ln {color: #900; padding: 0 0 2px 0; margin: 0;}
+.red_hdr_bx {height: 22px; border-bottom: 1px solid #ccc; padding: 0 0 1px 0; margin: 0 0 5px 0;}
+h3 {font: bold 11px/18px verdana, 'lucida grande', sans-serif; color: #333; text-transform: uppercase; margin-bottom: 0;}
+h4 {font: bold 11px/14px arial, 'lucida grande', sans-serif; color: #000; margin: 0;}
+.nav_hdr {padding: 4px 0 0 0; margin: 0 0 3px 0; border-bottom: 1px solid #ccc;}
+.grey_txt {color: #676767;}
+.smtxt {font: normal 10px/14px arial, 'lucida grande', sans-serif;}
+.bold {font-weight: bold;}
+.bold_grey {font-weight: bold; color: #6A6A6A;}
+.bold_red {font-weight: bold; color: #900;}
+.white { color: #FFF; }
+
+/* Search Form - All Forms */
+
+fieldset {padding: 0; margin-top: 5px;}
+#srchbox {
+display:none;
+}
+.search {text-align: right; border: 0 solid;}
+.srch_input {margin-bottom: 5px; font: 11px/14px arial, 'lucida grande', sans-serif;}
+
+label {
+float: none;
+width: 30%;
+font-weight: bold; 
+color: #6A6A6A;
+}
+.form {border: 0 solid;}
+.input_bx {clear: right; font: 11px/14px arial, 'lucida grande', sans-serif;}
+.input_bx, textarea {
+margin-bottom: 5px;
+}
+textarea {
+height: 100px;
+}
+
+/* Lists */
+
+ul {margin: 0 0 10px 15px; padding: 0;}
+li {font: normal 11px/16px arial, 'lucida grande', sans-serif;}
+
+.mainnav li {font: bold 11px/17px arial, 'lucida grande', sans-serif;}
+.mainnav li a:link {font: normal 11px/17px arial, 'lucida grande', sans-serif; color: #900;}
+.mainnav li a:visited, a:active {font: normal 11px/17px arial, 'lucida grande', sans-serif; color: #900;}
+.mainnav li a:hover {font: normal 11px/17px arial, 'lucida grande', sans-serif; color: #900; text-decoration: underline;}
+
+.highlight {font: bold 11px/17px arial, 'lucida grande', sans-serif; color: #000;}
+.highlight_bg {background: url("/images/letnav_highlight.gif") no-repeat; padding: 0 0 0 5px; margin: 0 0 0 -5px;}
+
+/* Links */
+a:link, a:visited {
+	color: #369;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+	}
+
+a.red:link, a.red:visited, a.red:active {font: normal 11px/14px arial,'lucida grande', sans-serif; color: #900; text-decoration: none;}
+
+.left {
+float: left;
+}
+.right {
+float: right;
+}
+.clear {
+clear: both;
+}
+
+/* Special Cases */
+
+#no_pad1 {padding: 0;}/* Special case: All Complex column pages */
+#no_pad2 {padding: 0;}
+#no_pad3 {padding: 10px 0 0 0; margin: 10px 16px 10px 0;} /* Special case: Pro Con page */
+#no_pad4 {padding: 10px 0 0 0; margin: 10px 0 10px 0;}
+#no_pad5 {padding: 10px 0 0 0; margin: 10px 16px 0 0;} /* Special case: Pro Con page */
+#no_pad6 {padding: 10px 0 0 0; margin: 10px 0 10px 0;}
+#no_pad7 {padding: 10px 0 0 0; margin: 10px 16px 0 0;} /* Special case: Pro Con page */
+#no_pad8 {padding: 10px 0 0 0; margin: 10px 0 10px 0;}
+#pad_top {margin: 79px 0 20px 0; width: 648px;}
+#pad_top2 {margin: 79px 0 -60px 0; width: 648px; padding-bottom: 0;}
+#pad_btm {margin: 0 0 30px 0;}
+#switch {padding: 10px 0 0 0; margin: 10px 16px 0 0; vertical-align: top;} /* Special case: IP-PBX Essentials page */
+#switch2 {padding: 10px 0 0 0; margin: 10px 0 0 0;}
+
+/* Special case: Pro Con page - table properties */
+table.procon {border: 1px solid #fff; font: normal 10px/12px arial, 'lucida grande', sans-serif; color: #353535;}
+.tbl_main {background: #ccc; vertical-align: top; padding: 5px 3px 5px 10px;}
+.tbl_side {background: #95CCFF; font: bold 11px/14px arial, 'lucida grande', sans-serif; color: #003060; vertical-align: top; padding: 5px;}
+.tbl_top {background: #95CCFF; font: bold 11px/14px arial, 'lucida grande', sans-serif; color: #003060; padding: 5px;}
+
+/* Special case: Feature page, Interview page - Re-use of leftcol_sp and rightcol_sp further down the page made it necessary to zero the top margin */
+#no_margtop {display:none;}
+#no_margtop2 {display:none;}
+
+/* Special case: link columns - line-height adjustment */
+#lnk_lnht {line-height: 20px;}
+
+/* Special case: Pages with multi-column link boxes - to separate columns in boxes whose width varies according to the parent container - customize an id for each case */
+#lnkcol_wdth {width: 150px; line-height: 20px;}
+
+/* Special case: All Complex column pages - Top border for Headline grey box */
+#bdr {border-top: 1px solid #ccc; margin: 0 0 10px 0; padding-bottom: 25px;}
+.bdr {border-top: 1px solid #ccc; margin: 0 0 10px 0; padding-bottom: 
+25px;}
+
+/* Special case: IP-PBX Essentials page - Top border for Headline grey box, needed a width property */
+#bdr2 {width: 617px ;border-top: 1px solid #ccc; margin: 0; padding: 15px;}
+
+/* Special case: VoIP Jobs - to separate columns in boxes whose width varies according to the parent container - customize an id for each case */
+#gr_bx_col_wdth {width: 150px;}
+
+/* Special case: VoIP Jobs - added width property to overcome Safari bug */
+#gr_bx_col_wdth2 {width: 420px; margin: 0 0 10px 0;}
+
+/* Special case: Main page - added width property to overcome Safari bug */
+#gr_bx_col_wdth3 {width: 309px; margin: 0 0 10px 0;}
+
+/* Special case: All Complex column pages - added width property to overcome Safari bug */
+#gr_bx_hdr_lnk_wdth {width: 186px; margin-top: 14px;}
+
+/* Special case: Feature page - added width property to overcome Safari bug */
+#gr_bx_hdr_lnk_wdth2 {width: 475px;}
+
+/* Special case: All Complex column pages - added width property to overcome Safari bug */
+#gr_bx_hdr_lnk_wdth3 {width: 186px;}
+
+/* Special case: All Complex column pages - added width property to overcome Safari bug */
+#gr_bx_hdr_lnk_wdth4 {width: 186px;}
+
+/* Special case: All Complex column pages - Header becomes float container to contain floated elements; added width property to overcome Safari bug*/
+.grey_bx_hdr_lnk {
+float: left;
+width: 183px;
+margin: 0;
+padding: 2px 10px 10px 10px; 
+background: #f8f8f8;
+border: 1px solid #ccc;
+}
+/* Special case: IP-PBX Essentials page - Header becomes float container to contain floated elements; added width property to overcome Safari bug*/
+.grey_bx_hdr_lnk2 {
+float: none;
+width: 289px;
+margin: 0; 
+padding: 2px 10px 2px 10px; 
+background: #f8f8f8;
+border: 1px solid #ccc;
+}
+.blue_bx_hdr_lnk2 {
+width: 289px;
+margin: 0; 
+padding: 5px 10px 2px 10px; 
+background: #CEDAF0;
+border: 1px solid #000;
+border-bottom: none;
+border-top: none;
+font-size: 14px;
+font-weight: bold;
+}
+/* Special case: VoIP Jobs - Height Setting to match double box row grey boxes - will have to customized for each case */
+.grey_bx_jobs {
+clear: both;
+height: 60px;
+margin: 0 0 10px 0;
+padding: 10px;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+border-left: 1px solid #ccc;
+background: #f8f8f8;
+}
+/* Special case: All Complex column pages - Height Setting to match triple box row grey boxes - will have to customized for each case */
+.grey_bx_rsctr {
+clear: both;
+margin: 0 0 20px 0;
+padding: 10px;
+height: 80px;
+min-height: 80px;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+border-left: 1px solid #ccc;
+background: #f8f8f8;
+}
+
+/* Special case: All Complex column pages - main column container for complex columns - to keep floats toward the bottom from moving left when column length exceeds leftnav column length */
+.mid_col {
+float: none;
+width: auto;
+margin: 0;
+padding: 0;
+}
+/* Special case: All Complex column pages - to set up the skewed double column */
+.skew_col {
+float: none;
+margin: 0;
+padding: 0;
+}
+.skew_bx {
+float: none;
+width: 321px;
+margin: 0 16px 0 0;
+padding: 0;
+}
+.skew_bx2 {
+float: none;
+width: 311px;
+margin: 0;
+padding: 0;
+}
+
+/* Special case: Pros Cons page - long horizontal box for Article Tools links */
+#grey_ln {border-top: 1px solid #ccc; padding: 0; margin: 0;}
+
+/* Special case: Pros Cons page - long horizontal box for Article Tools links */
+#grey_ln2 {border-top: 1px solid #ccc; padding: 0; margin: 0;}
+
+/* Special case: Pros Cons page - long horizontal box for Article Tools links */
+#grey_ln3 {border-top: 1px solid #ccc; padding: 0; margin: 0;}
+
+/* Special case: Feature, Interview page - long horizontal box for Article Tools links */
+#simple_bx {display:none;}
+
+/* Special case: Interview page - Rectangular box - 3rd column, top - customize padding to suit content*/
+.simple_bx2 {border: 1px solid #ccc; padding: 10px 10px 33px 10px; margin: 0 0 20px 0;}
+
+/* End Special Cases */
+
+/* Main Container */
+
+#container {margin-left: 80px;}
+
+#containerbg {}
+
+/* Header */
+
+#header {
+position: absolute;
+left: 80px;
+top: 0;
+width: 1000px;
+height: 62px;
+background: url("/images/header_background.gif") repeat-x;
+}
+#brand {
+
+}
+
+/* MP Column 1: leftnav */
+
+#leftnav {
+display: none;
+}
+
+/* MP Column 2: leftcol */
+
+.leftcol {
+float: none;
+width: 311px;
+margin: 72px 16px 0 0;
+padding: 0 0 50px 0;
+}
+.leftcol_hdr {
+height: 22px; 
+padding: 0; 
+margin: 0 0 10px 0;
+border-bottom: 1px solid #ccc;
+}
+
+.smlink_hdr {padding: 7px 0 0 0;}
+.smlink_hdr2 {padding: 5px 0 0 0;}
+.sm_hdr {
+width: 210px;
+padding: 0; 
+font: normal 10px/14px arial, 'lucida grande', sans-serif; 
+color: #646464;
+}
+.sm_hdr_ln {
+padding: 1px 0 0 10px; 
+border-left: 1px solid #ccc;
+}
+
+.articl_icon {
+float: none;
+margin: 3px 5px 5px 0;
+border: 1px solid #000;
+width: 60px;
+height: 60px;
+}
+.articl_icon img {
+width: 60px;
+height: 60px;
+}
+
+.articl_bx {height: 65px; margin: 0 0 10px 0;}
+.articl_bx_btm {height: 65px; margin: 0 0 15px 0;}
+.articl_bx2 {margin: 0 0 10px 0;}
+.articl_bx2_btm {margin: 0 0 15px 0;}
+.articl_bx2_top {margin: 25px 0 10px 0;}
+
+/* MP Column 3: rightcol */
+
+.rightcol {
+display:none;
+}
+.rightcol_hdr {
+height: 22px; 
+padding: 0; 
+margin: 0 0 10px 0; 
+border-bottom: 1px solid #ccc;
+}
+.rightcol_hdr_nobdr {
+height: 22px;
+padding: 0; 
+margin: 0 0 10px 0; 
+}
+.grey_bxcol_hdr {
+clear: both;
+margin: 0; 
+padding: 2px 10px 2px 10px; 
+background: #f8f8f8;
+border: 1px solid #ccc;
+}
+.grey_bxcol {
+float: none;
+margin: 0;
+padding: 0;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+border-left: 1px solid #ccc;
+background: #f8f8f8;
+}
+
+.grey_bx_hdr {
+margin: 0; 
+height: 15px;
+padding: 2px 10px 2px 10px; 
+background: #f8f8f8;
+border: 1px solid #ccc;
+}
+.grey_bx {
+clear: both;
+margin: 0 0 10px 0;
+width: 475px;
+padding: 10px;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+border-left: 1px solid #ccc;
+background: #f8f8f8;
+}
+.grey_bx_full {
+clear: both;
+margin: 0 0 10px 0;
+padding: 10px 10px 15px 10px;
+border: 1px solid #ccc;
+background: #f8f8f8;
+height: 100%;
+min-height: 60px;
+}
+.grey_bx_lft {
+float: none;
+width: 205px;
+margin: 0 10px 0 0;
+padding: 0;
+}
+.grey_bx_rt {
+float: none;
+width: 205px;
+margin: 0;
+padding: 0;
+}
+
+/* MP Column 4 */
+
+#ad4_rt {
+display:none;
+}
+
+/* Ads */
+
+#ad1_top {display:none;}
+#ad2 {clear: both; margin: 0; padding: 30px 0 20px 0;}
+#ad3 {clear: both; margin: 0; padding: 0 0 30px 0;}
+
+/* Footer */
+
+#footer {
+display:none;
+}
+
+/* Subpage 4-column layout elements */
+
+.leftcol_sp {
+float: none;
+width: 422px;
+margin: 72px 16px 0 0;
+padding: 0 0 50px 0;
+}
+
+.leftcol_sp_hdr {
+padding: 0 0 60px 0; 
+margin: 7px 0 0 0; 
+}
+
+.rightcol_sp {
+display:none;
+}
+
+.rightcol_sp_hdr {
+padding: 0 0 35px 0;
+margin: 7px 0 25px 0;
+}
+
+/* mct */
+#commStr {
+display:none;
+}
